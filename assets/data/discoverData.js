@@ -1,0 +1,95 @@
+const discoverData = [
+    {
+        id: "discover-1",
+        title: "Kayaking in the Tofino Sea",
+        location: "Canada",
+        image: require("../images/kayak.png"),
+        imageBig: require("../images/kayak-big.png"),
+        description:
+            "An ideal introduction to sea kayaking around the stunning historical Islands of Tofino's harbour. Come explore the spectacular scenery of the area and learn what makes the area so fascinating.",
+        liked: false,
+        price: 50,
+        rating: 5,
+        duration: 2,
+    },
+    {
+        id: "discover-2",
+        title: "Hiking the Grand Canyon",
+        location: "USA",
+        image: require("../images/anh5.webp"),
+        imageBig: require("../images/anh5.webp"),
+        description:
+            "Great day hikes and backpacking routes on the North and South Rim of this century-old national park include easy hikes overlooking the rim and more rugged trekking options that descend into the canyon.",
+        liked: false,
+        price: 350,
+        rating: 4.5,
+        duration: 3,
+    },
+    {
+        id: "discover-3",
+        title: "Venus Travel - Ba Na Hills - Golden Bridge",
+        location: "Vietnam",
+        image: require("../images/anh1.webp"),
+        imageBig: require("../images/anh1.webp"),
+        description:
+            "Among the many bridges that merits celebration in Vietnam, Danang Golden Bridge is probably the most recognizable one. Its unique design resembling lifted by two giant hands and the golden yellow hue of this pedestrian bridge make it both photo perfect and a great place for sightseeing.",
+        liked: false,
+        price: 350,
+        rating: 4.5,
+        duration: 3,
+    },
+    {
+        id: "discover-4",
+        title: "Gardens by the Bay",
+        location: "Singapore",
+        image: require("../images/anh2.webp"),
+        imageBig: require("../images/anh2.webp"),
+        description:
+            "I was on a layover in Singapore and decided to visit the Super Tree Grove at Gardens by the Bay. I arrived in the late afternoon and the lighting was brilliant. This is taken from the walkway connecting the trees. Just an amazing site to visit, especially at sunset.",
+        liked: false,
+        price: 350,
+        rating: 4.5,
+        duration: 3,
+    },
+    {
+        id: "discover-5",
+        title: "Universal Studios",
+        location: "USA",
+        image: require("../images/anh3.webp"),
+        imageBig: require("../images/anh3.webp"),
+        description:
+            "Universal Studios Singapore is a theme park located within the Resorts World Sentosa at Sentosa, Singapore. It features 28 rides, shows, and attractions in seven themed zones. It is one of the six Universal Studios theme parks around the world.",
+        liked: false,
+        price: 350,
+        rating: 4.5,
+        duration: 3,
+    },
+    {
+        id: "discover-6",
+        title: "ArtScience Museum",
+        location: "USA",
+        image: require("../images/anh4.webp"),
+        imageBig: require("../images/anh4.webp"),
+        description:
+            "Universal Studios Singapore is a theme park located within the Resorts World Sentosa at Sentosa, Singapore. It features 28 rides, shows, and attractions in seven themed zones. It is one of the six Universal Studios theme parks around the world.",
+        liked: false,
+        price: 350,
+        rating: 4.5,
+        duration: 3,
+    },
+    {
+        id: "discover-7",
+        title: "ArtScience Museum",
+        location: "Singapore",
+        image: require("../images/canyon.png"),
+        imageBig: require("../images/canyon.png"),
+        description:
+            "Have an immersive, educational experience and learn about art, space, technology, and more at ArtScience Museum at Marina Bay Sands",
+        liked: false,
+        price: 350,
+        rating: 4.5,
+        duration: 3,
+    },
+];
+
+export default discoverData;
