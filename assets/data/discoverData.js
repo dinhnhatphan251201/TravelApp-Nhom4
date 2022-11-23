@@ -90,6 +90,19 @@ const discoverData = [
         rating: 4.5,
         duration: 3,
     },
+    {
+        id: "discover-8",
+        title: "Hiking the Grand Canyon",
+        location: "USA",
+        image: require("../images/anh5.webp"),
+        imageBig: require("../images/anh5.webp"),
+        description:
+            "Great day hikes and backpacking routes on the North and South Rim of this century-old national park include easy hikes overlooking the rim and more rugged trekking options that descend into the canyon.",
+        liked: false,
+        price: 350,
+        rating: 4.5,
+        duration: 3,
+    },
 ];
 
 export default discoverData;
